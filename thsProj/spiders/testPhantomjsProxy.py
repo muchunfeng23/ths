@@ -11,7 +11,7 @@ class PlatInfo(scrapy.Spider):
             'thsProj.pipelines.SharePlateData': 200
         }
     }
-    def __init__(self):
+    def __init__(self,*args, **kwargs):
         pass
 
     start_urls = ["http://kuailv.meituan.com/wxmall/api/goods/list?cat1Id=1000689&cat2Id=1000736&pageNo=1&pageSize=20&cityId=340100&_=1527735802750"]

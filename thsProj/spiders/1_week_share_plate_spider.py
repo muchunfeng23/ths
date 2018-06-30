@@ -14,7 +14,7 @@ class SharePlateInfo(scrapy.Spider):
         }
     }
 
-    def __init__(self):
+    def __init__(self,*args, **kwargs):
         self.agent_list = USER_AGENT_LIST = [
             'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 MicroMessenger/6.3.23 NetType/WIFI Language/en']
         pass

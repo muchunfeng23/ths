@@ -20,7 +20,7 @@ class LHB_spider(scrapy.Spider):
         }
     }
 
-    def __init__(self):
+    def __init__(self,*args, **kwargs):
         pass
 
     start_urls = ["http://data.10jqka.com.cn/market/longhu/"]

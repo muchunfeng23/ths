@@ -11,7 +11,7 @@ class PlatInfo(scrapy.Spider):
             'thsProj.pipelines.SharePlateData': 200
         }
     }
-    def __init__(self):
+    def __init__(self,*args, **kwargs):
         pass
 
     start_urls = ["http://basic.10jqka.com.cn/002494/concept.html"]
