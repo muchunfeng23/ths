@@ -1,7 +1,7 @@
 from scrapy import cmdline
 import os
 # os.system("scrapy crawl 1_day_lhb")
-os.system("scrapy crawl 1_week_share_plate_spider")
+# os.system("scrapy crawl 1_day_stastic_big_num")
 
 
 
@@ -17,5 +17,5 @@ os.system("scrapy crawl 1_week_share_plate_spider")
 
 
 
-# cmdline.execute("scrapy crawl testPhantomjsProxy".split())
+cmdline.execute("scrapy crawl 1_day_stastic_big_num".split())
 

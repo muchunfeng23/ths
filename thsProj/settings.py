@@ -93,7 +93,6 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-
 MYSQL_CONFIG = {
     'host': '47.104.142.246',
     'user': 'root',

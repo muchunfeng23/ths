@@ -646,3 +646,93 @@ Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvr
 [Child 14692, Chrome_C
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1530338268231	geckodriver	INFO	geckodriver 0.20.1
+1530338268323	geckodriver	INFO	Listening on 127.0.0.1:65138
+1530338271531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.uqYGyFKjFth2"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from UC:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+nable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530338282525	Marionette	INFO	Listening on port 65156
+1530338284122	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+1530339169316	geckodriver	INFO	geckodriver 0.20.1
+1530339169335	geckodriver	INFO	Listening on 127.0.0.1:65046
+1530339172344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.5DCrqJcVbwZS"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339176723	Marionette	INFO	Listening on port 65064
+1530339177673	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+1530339482408	geckodriver	INFO	geckodriver 0.20.1
+1530339482423	geckodriver	INFO	Listening on 127.0.0.1:65199
+1530339485436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.r19DrwZbxxCH"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339489878	Marionette	INFO	Listening on port 65216
+1530339490660	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339528690	geckodriver	INFO	geckodriver 0.20.1
+1530339528706	geckodriver	INFO	Listening on 127.0.0.1:65403
+1530339531668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.Jzws8q9yOgkH"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339537849	Marionette	INFO	Listening on port 65421
+1530339538679	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339700845	geckodriver	INFO	geckodriver 0.20.1
+1530339700862	geckodriver	INFO	Listening on 127.0.0.1:56096
+1530339703808	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.SHBfKXrApVkX"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339708323	Marionette	INFO	Listening on port 56113
+1530339709032	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+1530339733124	geckodriver	INFO	geckodriver 0.20.1
+1530339733140	geckodriver	INFO	Listening on 127.0.0.1:56251
+1530339736179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.C92RCw7FXOlz"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339739884	Marionette	INFO	Listening on port 56268
+1530339740601	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339756925	geckodriver	INFO	geckodriver 0.20.1
+1530339756946	geckodriver	INFO	Listening on 127.0.0.1:56382
+1530339759937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.m5IW5V1P8STs"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339766277	Marionette	INFO	Listening on port 56398
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339767268	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339805686	geckodriver	INFO	geckodriver 0.20.1
+1530339805710	geckodriver	INFO	Listening on 127.0.0.1:56599
+1530339808681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.902LTzfVZVpy"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530339814700	Marionette	INFO	Listening on port 56615
+1530339815147	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
