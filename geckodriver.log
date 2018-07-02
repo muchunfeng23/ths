@@ -701,38 +701,46 @@ Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvr
 1530339708323	Marionette	INFO	Listening on port 56113
 1530339709032	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
-1530339733124	geckodriver	INFO	geckodriver 0.20.1
-1530339733140	geckodriver	INFO	Listening on 127.0.0.1:56251
-1530339736179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.C92RCw7FXOlz"
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ad VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
 1530339739884	Marionette	INFO	Listening on port 56268
 1530339740601	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
 Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-1530339756925	geckodriver	INFO	geckodriver 0.20.1
-1530339756946	geckodriver	INFO	Listening on 127.0.0.1:56382
-1530339759937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.m5IW5V1P8STs"
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-1530339766277	Marionette	INFO	Listening on port 56398
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-1530339767268	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e ignored for this session
 JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
 Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-1530339805686	geckodriver	INFO	geckodriver 0.20.1
-1530339805710	geckodriver	INFO	Listening on 127.0.0.1:56599
-1530339808681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.902LTzfVZVpy"
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
-1530339814700	Marionette	INFO	Listening on port 56615
-1530339815147	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ta\Local\openvr\openvrpaths.vrpath
 JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
-Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
 JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
-JavaScript error: http://img1.cache.netease.com/f2e/finance/gegu/js/ne_gegu_b.jR2HPJ8AZpUI.1.js, line 2: ReferenceError: ActiveXObject is not defined
+[Parent 12784, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12784, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12784, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -1,7 +1,8 @@
 from scrapy import cmdline
 import os
-# os.system("scrapy crawl 1_day_lhb")
-# os.system("scrapy crawl 1_day_stastic_big_num")
+os.system("scrapy crawl 1_day_lhb")
+os.system("scrapy crawl 1_day_share_info_everyday")
+os.system("scrapy crawl 1_day_stastic_big_num")
 
 
 
