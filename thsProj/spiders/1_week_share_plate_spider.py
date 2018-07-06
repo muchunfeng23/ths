@@ -31,6 +31,7 @@ class SharePlateInfo(scrapy.Spider):
                 browser.get("http://q.10jqka.com.cn/")
                 browser.implicitly_wait(10)
                 newCookie = browser.get_cookie("v")
+
                 print(newCookie["value"])
             request = scrapy.Request(
                 "http://q.10jqka.com.cn/index/index/board/all/field/zdf/order/desc/page/" + str(i) + "/ajax/1/",
