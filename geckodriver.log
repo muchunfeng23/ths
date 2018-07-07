@@ -5081,3 +5081,124 @@ Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvr
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1530875206437	geckodriver	INFO	geckodriver 0.20.1
+1530875206452	geckodriver	INFO	Listening on 127.0.0.1:65153
+1530875209610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.7qdO3uInydFj"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530875217282	Marionette	INFO	Listening on port 65161
+1530875217624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530876304430	geckodriver	INFO	geckodriver 0.20.1
+1530876304440	geckodriver	INFO	Listening on 127.0.0.1:49867
+1530876307475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.sold5qgzYT2k"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530876311204	Marionette	INFO	Listening on port 49875
+1530876311852	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 19384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 19904, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ead VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530876520261	Marionette	INFO	Listening on port 50143
+1530876520815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530930037407	geckodriver	INFO	geckodriver 0.20.1
+1530930037420	geckodriver	INFO	Listening on 127.0.0.1:50965
+1530930040488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.qhMkJumr4R2v"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530930046162	Marionette	INFO	Listening on port 50981
+1530930046466	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530930180749	geckodriver	INFO	geckodriver 0.20.1
+1530930180766	geckodriver	INFO	Listening on 127.0.0.1:55766
+1530930183814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.a8UGMQAWBPZv"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530930187289	Marionette	INFO	Listening on port 55781
+1530930187730	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530930364125	geckodriver	INFO	geckodriver 0.20.1
+1530930364136	geckodriver	INFO	Listening on 127.0.0.1:56621
+1530930367170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.mJBhovN3Ds7w"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530930370872	Marionette	INFO	Listening on port 56637
+1530930371306	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530930502553	geckodriver	INFO	geckodriver 0.20.1
+1530930502572	geckodriver	INFO	Listening on 127.0.0.1:57164
+1530930505589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.RtydTbDlHuNr"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530930509484	Marionette	INFO	Listening on port 57182
+1530930509932	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530930593085	geckodriver	INFO	geckodriver 0.20.1
+1530930593101	geckodriver	INFO	Listening on 127.0.0.1:57519
+1530930596132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.8fFYX7fJRcyk"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530930599555	Marionette	INFO	Listening on port 57534
+1530930599955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530930799767	geckodriver	INFO	geckodriver 0.20.1
+1530930799783	geckodriver	INFO	Listening on 127.0.0.1:58702
+1530930802822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.tzhgkFOT1upx"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530930806206	Marionette	INFO	Listening on port 58718
+1530930806596	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://s.thsi.cn/cb?js/ucenter/subMenu_v3.js, line 187: TypeError: $(...).subMenu is not a function
+1530931126474	geckodriver	INFO	geckodriver 0.20.1
+1530931126491	geckodriver	INFO	Listening on 127.0.0.1:60337
+1530931129515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.qxT2B3DIhxeQ"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530931132953	Marionette	INFO	Listening on port 60354
+1530931133307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530931674630	geckodriver	INFO	geckodriver 0.20.1
+1530931674647	geckodriver	INFO	Listening on 127.0.0.1:62909
+1530931677702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.5DNfeH5F10Do"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1530931681320	Marionette	INFO	Listening on port 62925
+1530931681331	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 12384,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
