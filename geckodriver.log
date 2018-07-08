@@ -5212,3 +5212,17 @@ Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvr
 Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
 1531035499312	Marionette	INFO	Listening on port 56636
 1531035499701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531038636317	geckodriver	INFO	geckodriver 0.20.1
+1531038636333	geckodriver	INFO	Listening on 127.0.0.1:49307
+1531038639378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.tf8HOnYyzqB6"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1531038643704	Marionette	INFO	Listening on port 49325
+1531038644604	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath

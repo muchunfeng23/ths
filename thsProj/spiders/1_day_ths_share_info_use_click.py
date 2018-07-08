@@ -9,6 +9,9 @@ import json
 from pyvirtualdisplay import Display
 from easyprocess import EasyProcess
 from pyvirtualdisplay import Display
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions
 
 class THS_share_info(scrapy.Spider):
     name = "1_day_share_info_everyday_use_click"
@@ -30,10 +33,9 @@ class THS_share_info(scrapy.Spider):
     def parse(self, response):
         display = Display(visible=0, size=(1024, 768))
         display.start()
-        EasyProcess('gnumeric').start()
         browser = webdriver.Firefox()
         browser.get('http://q.10jqka.com.cn/')
-        browser.implicitly_wait(10)
+        WebDriverWait(browser,10).until(expected_conditions.visibility_of_element_located((By.TAG_NAME,'tbody')))
         clickTimes = 0
         while clickTimes < 166:
             try:
