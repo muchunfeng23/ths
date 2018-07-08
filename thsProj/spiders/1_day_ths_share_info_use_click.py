@@ -8,7 +8,7 @@ from selenium.webdriver.common.proxy import *
 import json
 from pyvirtualdisplay import Display
 from easyprocess import EasyProcess
-from pyvirtualdisplay.smartdisplay import SmartDisplay
+from pyvirtualdisplay import Display
 
 class THS_share_info(scrapy.Spider):
     name = "1_day_share_info_everyday_use_click"
@@ -30,10 +30,7 @@ class THS_share_info(scrapy.Spider):
     def parse(self, response):
         display = Display(visible=0, size=(1024, 768))
         display.start()
-        with SmartDisplay(visible=0, bgcolor='black') as disp:
-            with EasyProcess('xmessage hello'):
-                img = disp.waitgrab()
-        img.show()
+        EasyProcess('gnumeric').start()
         browser = webdriver.Firefox()
         browser.get('http://q.10jqka.com.cn/')
         browser.implicitly_wait(10)
