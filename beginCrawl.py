@@ -6,28 +6,28 @@ import time,datetime
 # os.system("scrapy crawl 1_day_stastic_big_num")
 
 
-def get_week_day(date):
-    week_day_dict = {
-        0: '星期一',
-        1: '星期二',
-        2: '星期三',
-        3: '星期四',
-        4: '星期五',
-        5: '星期六',
-        6: '星期天',
-    }
-    day = date.weekday()
-    return week_day_dict[day]
-
-date = datetime.datetime.now()
-if date.weekday == 5 or date.weekday == 6:
-    pass
-else:
-    os.system("scrapy crawl 1_day_lhb")
-    # 下面方法获取数据过多，先暂且不用
-    # os.system("scrapy crawl 1_day_stastic_big_num")
-    # 下面的方法目前只适合在windows下运行
-    os.system("scrapy crawl 1_day_share_info_everyday_use_click")
+# def get_week_day(date):
+#     week_day_dict = {
+#         0: '星期一',
+#         1: '星期二',
+#         2: '星期三',
+#         3: '星期四',
+#         4: '星期五',
+#         5: '星期六',
+#         6: '星期天',
+#     }
+#     day = date.weekday()
+#     return week_day_dict[day]
+#
+# date = datetime.datetime.now()
+# if date.weekday == 5 or date.weekday == 6:
+#     pass
+# else:
+#     os.system("scrapy crawl 1_day_lhb")
+#     # 下面方法获取数据过多，先暂且不用
+#     # os.system("scrapy crawl 1_day_stastic_big_num")
+#     # 下面的方法目前只适合在windows下运行
+#     # os.system("scrapy crawl 1_day_share_info_everyday_use_click")
 
 
 
