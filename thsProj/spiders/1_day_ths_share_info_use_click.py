@@ -26,17 +26,11 @@ class THS_share_info(scrapy.Spider):
     start_urls = ["http://www.baidu.com"]
 
     def parse(self, response):
-        # profile = webdriver.FirefoxProfile()
-        # profile.set_preference("network.proxy.type", 1)
-        # profile.set_preference("network.proxy.http", "58.45.173.205")
-        # profile.set_preference("network.proxy.http_port", 31320)
-        # profile.update_preferences()
-        # browser = webdriver.Firefox(profile)
         display = Display(visible=0, size=(1024, 768))
         display.start()
         browser = webdriver.Firefox()
         browser.get('http://q.10jqka.com.cn/')
-
+        browser.implicitly_wait(10)
         clickTimes = 0
         while clickTimes < 166:
             try:
@@ -58,6 +52,8 @@ class THS_share_info(scrapy.Spider):
                     break
                 self.toRefresh(browser, clickTimes)
                 continue
+        display.stop()
+
 
     def parseAtr(self,aTr):
         allTds = aTr.split(' ')
