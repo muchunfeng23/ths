@@ -6,6 +6,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import random
 from selenium.webdriver.common.proxy import *
 import json
+from pyvirtualdisplay import Display
 
 class THS_share_info(scrapy.Spider):
     name = "1_day_share_info_everyday_use_click"
@@ -31,6 +32,8 @@ class THS_share_info(scrapy.Spider):
         # profile.set_preference("network.proxy.http_port", 31320)
         # profile.update_preferences()
         # browser = webdriver.Firefox(profile)
+        display = Display(visible=0, size=(1024, 768))
+        display.start()
         browser = webdriver.Firefox()
         browser.get('http://q.10jqka.com.cn/')
 

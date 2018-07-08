@@ -5202,3 +5202,13 @@ Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvr
 [GPU 12384,
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1531035492276	geckodriver	INFO	geckodriver 0.20.1
+1531035492287	geckodriver	INFO	Listening on 127.0.0.1:56624
+1531035495297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\meicai\\AppData\\Local\\Temp\\rust_mozprofile.jXUdFYG0DzCp"
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\meicai\AppData\Local\openvr\openvrpaths.vrpath
+1531035499312	Marionette	INFO	Listening on port 56636
+1531035499701	Marionette	WARN	TLS certificate errors will be ignored for this session
