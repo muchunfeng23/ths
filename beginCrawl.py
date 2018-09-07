@@ -30,17 +30,26 @@ import time,datetime
 #     # os.system("scrapy crawl 1_day_share_info_everyday_use_click")
 
 
+# os.system("scrapy crawl kuailvCompanyOrderList")
+# os.system("scrapy crawl kuailvXiaoShou")
 
 
+
+# cmdline.execute("scrapy crawl 1_day_lhb".split())
+# cmdline.execute("scrapy crawl 1_day_share_info_everyday_use_click".split())
 
 
 
 
 # cmdline.execute("scrapy crawl 1_day_lhb".split())
-# cmdline.execute("scrapy crawl 1_day_share_info_everyday".split())
+cmdline.execute("scrapy crawl 1_day_dfcf_hq".split())
+# cmdline.execute("scrapy crawl 1_day_stastic_big_num".split())
+
+
+# 一礼拜一次,板块信息
+# cmdline.execute("scrapy crawl 1_week_share_plate_spider".split())
 
 
 
 
-# cmdline.execute("scrapy crawl 1_day_lhb".split())
-cmdline.execute("scrapy crawl 1_day_share_info_everyday_use_click".split())
+

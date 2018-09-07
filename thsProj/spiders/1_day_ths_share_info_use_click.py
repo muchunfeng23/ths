@@ -12,6 +12,8 @@ from pyvirtualdisplay import Display
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
+import MySQLdb
+from scrapy.conf import settings
 
 class THS_share_info(scrapy.Spider):
     name = "1_day_share_info_everyday_use_click"
@@ -26,18 +28,26 @@ class THS_share_info(scrapy.Spider):
     }
 
     def __init__(self,*args, **kwargs):
+        self.readMaxIndex()
         pass
 
     start_urls = ["http://www.baidu.com"]
 
+    def readMaxIndex(self):
+        conn = MySQLdb.connect(**settings.get("MYSQL_CONFIG"))
+        cursor = conn.cursor()
+        cursor.execute("select max(index1) from crawler_share_everyday_data")
+        # print("-----------",cursor.fetchone())
+        self.maxIndex = cursor.fetchone()[0] + 1
+
     def parse(self, response):
-        display = Display(visible=0, size=(1024, 768))
-        display.start()
+        # display = Display(visible=0, size=(1024, 768))
+        # display.start()
         browser = webdriver.Firefox()
         browser.get('http://q.10jqka.com.cn/')
         WebDriverWait(browser,10).until(expected_conditions.visibility_of_element_located((By.TAG_NAME,'tbody')))
         clickTimes = 0
-        while clickTimes < 166:
+        while clickTimes < 168:
             try:
                 tbody = browser.find_element_by_xpath('//*[@id="maincont"]/table/tbody').text
                 allTrs = tbody.split('\n')
@@ -48,17 +58,42 @@ class THS_share_info(scrapy.Spider):
                     item = shareData
                     yield item
                     # raise Exception("抛出一个异常")
+                time.sleep(random.randint(2,5))
                 nextPage = browser.find_element_by_link_text("下一页")
                 nextPage.click()
                 clickTimes += 1
             except Exception as err:
                 print(err)
-                if clickTimes == 165:
+                if clickTimes == 167:
+                    browser.close()
                     break
                 self.toRefresh(browser, clickTimes)
                 continue
-        display.stop()
+        # display.stop()
 
+    def toRefresh(self,browser,clickTimes):
+        # browser.close()
+        # browser = webdriver.Firefox()
+        browser.refresh()
+        browser.get('http://q.10jqka.com.cn/')
+        try:
+            fanye = 1
+            nextFy = 5 * fanye
+            while (nextFy <= clickTimes + 1):
+                spacePage = browser.find_element_by_link_text(str(5 * fanye))
+                spacePage.click()
+                nextPage = browser.find_element_by_link_text("下一页")
+                nextPage.click()
+                time.sleep(random.randint(1, 3))
+                fanye += 1
+                nextFy = 5 * fanye
+                continue
+            getRightPage = browser.find_element_by_link_text(str(clickTimes + 1))
+        except Exception as error:
+            print(error)
+            self.toRefresh(browser, clickTimes)
+        clickTimes += 1
+        getRightPage.click()
 
     def parseAtr(self,aTr):
         allTds = aTr.split(' ')
@@ -100,23 +135,5 @@ class THS_share_info(scrapy.Spider):
             shareData["circulation_value"] = float(circulation_value[0: len(circulation_value) - 1]) * 10000
         # 市盈率
         shareData["pe_ration"] = allTds[13]
+        shareData["newIndex"] = self.maxIndex
         return shareData
-
-    def toRefresh(self,browser,clickTimes):
-        browser.refresh()
-        browser.get('http://q.10jqka.com.cn/')
-        fanye = 1
-        nextFy = 5 * fanye
-        while (nextFy <= clickTimes + 1):
-            spacePage = browser.find_element_by_link_text(str(5 * fanye))
-            spacePage.click()
-            time.sleep(1)
-            nextPage = browser.find_element_by_link_text("下一页")
-            nextPage.click()
-            time.sleep(1)
-            fanye += 1
-            nextFy = 5 * fanye
-            continue
-        getRightPage = browser.find_element_by_link_text(str(clickTimes + 1))
-        clickTimes += 1
-        getRightPage.click()
