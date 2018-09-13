@@ -6,18 +6,18 @@ import time,datetime
 # os.system("scrapy crawl 1_day_stastic_big_num")
 
 
-# def get_week_day(date):
-#     week_day_dict = {
-#         0: '星期一',
-#         1: '星期二',
-#         2: '星期三',
-#         3: '星期四',
-#         4: '星期五',
-#         5: '星期六',
-#         6: '星期天',
-#     }
-#     day = date.weekday()
-#     return week_day_dict[day]
+def get_week_day(date):
+    week_day_dict = {
+        0: '星期一',
+        1: '星期二',
+        2: '星期三',
+        3: '星期四',
+        4: '星期五',
+        5: '星期六',
+        6: '星期天',
+    }
+    day = date.weekday()
+    return week_day_dict[day]
 #
 # date = datetime.datetime.now()
 # if date.weekday == 5 or date.weekday == 6:
@@ -41,8 +41,8 @@ import time,datetime
 
 
 
-# cmdline.execute("scrapy crawl 1_day_lhb".split())
-cmdline.execute("scrapy crawl 1_day_dfcf_hq".split())
+os.system("scrapy crawl 1_day_lhb")
+os.system("scrapy crawl 1_day_dfcf_hq")
 # cmdline.execute("scrapy crawl 1_day_stastic_big_num".split())
 
 

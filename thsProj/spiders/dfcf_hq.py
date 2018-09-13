@@ -16,6 +16,7 @@ import MySQLdb
 from scrapy.conf import settings
 
 class DFCF_share_info(scrapy.Spider):
+    # 东方财富数据
     name = "1_day_dfcf_hq"
 
     custom_settings = {

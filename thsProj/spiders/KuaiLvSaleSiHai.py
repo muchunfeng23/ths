@@ -20,11 +20,6 @@ class newSpider(scrapy.Spider):
 
     start_urls = ["http://www.baidu.com"]
 
-    # def parse(self, response):
-        # requestUrl = "https://klcrm.meituan.com/crm/app/poi/r/list?pageNo=1&pageSize=20&cat1Id=&cat2Id=&customerLifecycleLabel=0&sortType=CREATETIME_DESC&onlineStatus=DEFAULT&ua=30402_ios&token=d7e567f07c*644b4896e6ec8c2bb6983"
-        # request = scrapy.Request(requestUrl, self.parseData)
-        # yield request
-
     def parse(self,response):
         # target_json = json.loads(response.body.decode("utf-8"))
         # print(target_json)
