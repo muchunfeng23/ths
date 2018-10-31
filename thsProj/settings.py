@@ -97,7 +97,7 @@ MYSQL_CONFIG = {
     'host': 'localhost',
     'user': 'root',
     'passwd': 'yanglu56',
-    'port':3306,
+    'port':3360,
     'db': 'ths',
     'charset': 'utf8'
 }
