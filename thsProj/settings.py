@@ -94,7 +94,8 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 MYSQL_CONFIG = {
-    'host': 'localhost',
+    # 'host': 'localhost',
+    'host': '47.104.142.246',
     'user': 'root',
     'passwd': 'yanglu56',
     'port':3360,

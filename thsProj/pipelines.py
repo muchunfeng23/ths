@@ -64,4 +64,22 @@ class SharePlateData(object):
         pass
 
 
+# 股票大单信息
+class BigOrdersEveryDay(object):
+    # Initialize database environment.
+    def open_spider(self, spider):
+        self.conn = MySQLdb.connect(**settings.get("MYSQL_CONFIG"))
+        self.conn.autocommit(True)
+        self.cursor = self.conn.cursor()
+
+    def close_spider(self, spider):
+        self.conn.close()
+
+    def process_item(self, item, spider):
+        self.cursor.execute(
+            'insert into big_order (share_code,sum_amount,big_amount,big_buy,big_sell,big_avg_price,datekey) values("%s","%d","%d","%d","%d","%f","%d")'
+            % (item["share_code"], int(item["sum_amount"]), int(item["big_amount"]),int(item["big_buy"]),int(item["big_sell"]), float(item["big_avg_price"]), int(item["datekey"])))
+        pass
+
+
 
