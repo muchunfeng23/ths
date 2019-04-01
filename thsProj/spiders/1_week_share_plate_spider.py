@@ -3,6 +3,8 @@ from ..items import DataItem
 from scrapy.conf import settings
 import MySQLdb
 
+# 每周统计一次的板块信息
+
 class SharePlateInfo(scrapy.Spider):
     name = "1_week_share_plate_spider"
     custom_settings = {

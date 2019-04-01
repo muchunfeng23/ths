@@ -82,4 +82,36 @@ class BigOrdersEveryDay(object):
         pass
 
 
+class IndustryDataEveryDay(object):
+    # Initialize database environment.
+    def open_spider(self, spider):
+        self.conn = MySQLdb.connect(**settings.get("MYSQL_CONFIG"))
+        self.conn.autocommit(True)
+        self.cursor = self.conn.cursor()
+
+    def close_spider(self, spider):
+        self.conn.close()
+
+    def process_item(self, item, spider):
+        self.cursor.execute(
+            'insert into industry_amount (i_name,amount,datekey) values("%s","%f","%d")'
+            % (item["i_name"], float(item["amount"]), int(item["datekey"])))
+        pass
+
+
+class ConceptDataEveryDay(object):
+    # Initialize database environment.
+    def open_spider(self, spider):
+        self.conn = MySQLdb.connect(**settings.get("MYSQL_CONFIG"))
+        self.conn.autocommit(True)
+        self.cursor = self.conn.cursor()
+
+    def close_spider(self, spider):
+        self.conn.close()
+
+    def process_item(self, item, spider):
+        self.cursor.execute(
+            'insert into concept_amount (c_name,amount,datekey) values("%s","%f","%d")'
+            % (item["c_name"], float(item["amount"]), int(item["datekey"])))
+        pass
 
