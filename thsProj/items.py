@@ -21,3 +21,8 @@ class ShareEveryDayItem(scrapy.Item):
 class DataItem(scrapy.Item):
     content = scrapy.Field()
     pass
+
+
+class ConceptFromThsItem(scrapy.Item):
+    content = scrapy.Field()
+    pass

@@ -1,5 +1,7 @@
 import scrapy
 from ..items import ThsprojItem
+import MySQLdb
+from scrapy.conf import settings
 
 class LHB_spider(scrapy.Spider):
     # 同花顺龙虎榜
@@ -21,6 +23,7 @@ class LHB_spider(scrapy.Spider):
     }
 
     def __init__(self,*args, **kwargs):
+        self.readMaxIndex()
         pass
 
     start_urls = ["http://data.10jqka.com.cn/market/longhu/"]
@@ -58,6 +61,7 @@ class LHB_spider(scrapy.Spider):
                     bigData["buy_in"] = buy_in
                     bigData["sell_out"] = sell_out
                     bigData["amount"] = amount
+                    bigData["dayIndex"] = self.maxIndex
                     item = bigData
                     yield item
 
@@ -82,12 +86,26 @@ class LHB_spider(scrapy.Spider):
                     bigData2["buy_in"] = buy_in2
                     bigData2["sell_out"] = sell_out2
                     bigData2["amount"] = amount2
+                    bigData2["dayIndex"] = self.maxIndex
                     item2 = bigData2
                     yield item2
             except Exception as err:
                 print(err)
                 # print(oneStock)
         pass
+
+
+    def readMaxIndex(self):
+        conn = MySQLdb.connect(**settings.get("MYSQL_CONFIG"))
+        cursor = conn.cursor()
+        cursor.execute("select max(dayIndex) from crawler_lhb_big_people")
+        adata = cursor.fetchone()[0]
+        # print("read max = " + str(cursor.fetchone()[0] is None))
+        if(adata is None):
+            self.maxIndex = 1
+        else:
+            print("cursor.fetchone()[0] = " , adata)
+            self.maxIndex = adata + 1
 
 
 

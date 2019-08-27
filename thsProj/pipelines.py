@@ -24,8 +24,8 @@ class ThsprojPipeline(object):
         self.conn.close()
 
     def process_item(self, item, spider):
-        self.cursor.execute('insert into crawler_lhb_big_people (share_code,on_list_reason,org_code,big_people,buy_in,sell_out,amount,c_t,datekey) values("%s","%s","%s","%s","%s","%s","%s","%d","%d")'
-                            %(item["share_code"],item["on_list_reason"],item["org_code"],item["big_people"],item["buy_in"],item["sell_out"],item["amount"],int(time.time()),int(nowdate)))
+        self.cursor.execute('insert into crawler_lhb_big_people (share_code,on_list_reason,org_code,big_people,buy_in,sell_out,amount,dayIndex,c_t,datekey) values("%s","%s","%s","%s","%s","%s","%s","%d","%d","%d")'
+                            %(item["share_code"],item["on_list_reason"],item["org_code"],item["big_people"],item["buy_in"],item["sell_out"],item["amount"],int(item["dayIndex"]),int(time.time()),int(nowdate)))
 
 
 #每日收盘数据
@@ -115,3 +115,19 @@ class ConceptDataEveryDay(object):
             % (item["c_name"], float(item["amount"]), int(item["datekey"])))
         pass
 
+
+class ConceptFromThs(object):
+    def open_spider(self, spider):
+        self.conn = MySQLdb.connect(**settings.get("MYSQL_CONFIG"))
+        self.conn.autocommit(True)
+        self.cursor = self.conn.cursor()
+
+    def close_spider(self, spider):
+        self.conn.close()
+
+    def process_item(self, item, spider):
+        print("===========" + item["hangye1"] + "    " + item["hangyezhishu"] )
+        self.cursor.execute(
+            'insert into ths_concept_everyday (hangye,hangyezhishu,zhangdiefu,liuruzijin,liuchuzijin,jiner,datekey,paihangIndex,mainshare,mainshareup,dayIndex) values("%s","%f","%f","%f","%f","%f","%d","%d","%s","%f","%d")'
+            % (item["hangye1"], float(item["hangyezhishu"]), float(item["zhangdiefu"]),float(item["liuruzijin"]),float(item["liuchuzijin"]),float(item["jiner"]),int(nowdate),int(item["paihangIndex"]),item["mainshare"],float(item["mainshareup"]),int(item["dayIndex"])))
+        pass
